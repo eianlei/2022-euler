@@ -97,9 +97,20 @@ Python is a very easy language to work with. If you have installed Python (3.8 o
 ### Problem #001
 Source: https://github.com/eianlei/2022-euler/blob/master/p001_euler.py
 
-This is a one-liner version of the corresponding Javascript algorithm 3.
+This is a one-liner version of the corresponding Javascript algorithm 3, which is also a one-liner. This shows how expressive Python can be, at the expense of not being so readable though.
 
     print(sum(map(lambda a: a if (a % 3 == 0 or a % 5 == 0) else 0, range(0, 1000))))
 ## JAVA solutions
+Single source file java code can also be very easy to work with. Just install java environment and:
+
+    > java .\p001_euler.java
+
+    Euler problem #001 solution
+    result from algorithm 1: 233168
 ### Problem #001
-Source: 
+Source: https://github.com/eianlei/2022-euler/blob/master/p001_euler.java
+
+This is basically the same code as corresponding Javascript algorithm 1. The core of the code is really just that one line of a for loop with if-statement, and looks exactly the same in java and javascript. Only the java boilerplate, declaration and output statements differ.
+
+
+
