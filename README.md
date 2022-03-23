@@ -86,3 +86,20 @@ Comparison:
 | 1 | 81 |
 | 2 | 0.7 |
 | 3 | 0.17 |
+
+## Python solutions
+Python is a very easy language to work with. If you have installed Python (3.8 or newer), then execute the code simply by:
+
+    > python .\p001_euler.py
+
+    Euler problem #001 solution
+    233168
+### Problem #001
+Source: https://github.com/eianlei/2022-euler/blob/master/p001_euler.py
+
+This is a one-liner version of the corresponding Javascript algorithm 3.
+
+    print(sum(map(lambda a: a if (a % 3 == 0 or a % 5 == 0) else 0, range(0, 1000))))
+## JAVA solutions
+### Problem #001
+Source: 
