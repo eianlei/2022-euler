@@ -1,10 +1,14 @@
 # Project Euler example solutions
+This repo contains some example solutions to Project Euler problems.
 https://projecteuler.net/ 
 
 According to rules, the problems below 100 may be published, but the rest may not. These solutions are provided as an example how to solve and present Project Euler solutions in a somewhat nice way.
 ## Javascript solutions
-You can easily run all of these on a computer that has Node.js installed.
-The results will print to the console. console.time is used to see performance of each algorithm.
+Javascript is an easy language to work with as you can run it on a web browser with very little tools. 
+You can easily run Javascript on a computer command line too when you install Node.js. See https://nodejs.org/en/ 
+
+The results from these code examples will print to the console. console.time is used to see performance of each algorithm.
+Example:
 ```
 > node .\p025_euler.js
 
@@ -17,7 +21,9 @@ result from algorithm 3: 4782
 3: 0.172ms
 ```
 
-You could also run these on a browser.
+You could also run these on a browser, for example: 
+
+https://eianlei.github.io/2022-euler/index.html 
 
 ### Problem #001
 https://projecteuler.net/problem=1
