@@ -65,18 +65,20 @@ Comparison:
 | 2 | 0.14 |
 | 3 | 0.13 |
 
-We can see that improving the algorithm di not bring that much benefit as the target was not big enough to notice the difference. Only with a much bigger target we would see a bigger difference.
+We can see that improving the algorithm did not bring that much benefit as the target was not big enough to notice the difference. Only with a much bigger target we would see a bigger difference.
 ### Problem #025
 https://projecteuler.net/problem=25
 
 Source: https://github.com/eianlei/2022-euler/blob/master/p025_euler.js 
 
-The first solutions rely on JavaScript BigInt data type, which is fairly recent addition. Before BigIn it would have been much nastier to 
+The first solutions rely on JavaScript BigInt data type, which is fairly recent addition. Before BigInt it would have been much nastier to implement the brute force solution. 
 
 Following solutions are provided:
 1. Simple brute force loop, but doing a stupid and ridiculous string conversion (don't do that :-) 
 2. Same as previous, but just comparing BigInt numbers
 3. Solving a mathematical formula, using some deeper mathematical knowledge about Fibonacci sequence and Golden Ratio.
+
+The first solution is to show how wasteful it is to play with string conversion here for no good reason. The last one shows that if you find a nice mathematical solution, then it would be much more efficient than using brute force. 
 
 Comparison:
 | algorithm | ms |
