@@ -1,10 +1,21 @@
 # Project Euler example solutions
 https://projecteuler.net/ 
 
-According to rules, the problems below 100 may be published, but the rest may not. These are provided as an example how to solve and present solutions in a somewhat nice way.
+According to rules, the problems below 100 may be published, but the rest may not. These solutions are provided as an example how to solve and present Project Euler solutions in a somewhat nice way.
 ## Javascript solutions
 You can easily run all of these on a computer that has Node.js installed.
-The results will print to the console.
+The results will print to the console. console.time is used to see performance of each algorithm.
+```
+> node .\p025_euler.js
+
+Solving project Euler problem #025 using several algorithms
+result from algorithm 1: 4782
+1: 81.258ms
+result from algorithm 2: 4782
+2: 0.723ms
+result from algorithm 3: 4782
+3: 0.172ms
+```
 
 You could also run these on a browser.
 
