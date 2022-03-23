@@ -2,7 +2,14 @@
 This repo contains some example solutions to Project Euler problems.
 https://projecteuler.net/ 
 
-According to rules, the problems below 100 may be published, but the rest may not. These solutions are provided as an example how to solve and present Project Euler solutions in a somewhat nice way.
+According to rules, the problems below 100 may be published, but the rest may not. Problems from 1 to 99 are often very easy to solve, sometimes with just a one-liner.
+
+These solutions are provided as an example how to solve and present Project Euler solutions in a somewhat nice way.
+
+Solutions are provided with following languages, which are among the most popular in 2022:
+- javascript
+- Python
+- java
 ## Javascript solutions
 Javascript is an easy language to work with as you can run it on a web browser with very little tools. 
 You can easily run Javascript on a computer command line too when you install Node.js. See https://nodejs.org/en/ 
