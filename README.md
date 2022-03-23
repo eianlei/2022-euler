@@ -8,6 +8,7 @@ You could also run these on a browser.
 
 ### Problem #001
 https://projecteuler.net/problem=1
+source: https://github.com/eianlei/2022-euler/blob/master/p001_euler.js 
 
 Four solutions are provided:
 1. Simple brute force loop
@@ -28,4 +29,10 @@ Comparison:
 
 
 ### Problem #002
+https://projecteuler.net/problem=2
+
+
 ### Problem #025
+https://projecteuler.net/problem=25
+
+
