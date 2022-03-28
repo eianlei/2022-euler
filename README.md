@@ -126,9 +126,11 @@ https://projecteuler.net/problem=62
 
 Source: https://github.com/eianlei/2022-euler/blob/master/p062_euler.js 
 
-In first solution p062_alg1() just start creating list of cubes, and then for each cube a signature of the decimal digit distribution using distSig(). Then sort the list(s) and find out sublists with matching signatures. The function here can be tweaked to study the numerology deepr, for different digit count cubes and for different amount of digit permuations so it is bit more complex than it needs to be. Still it runs pretty fast.
+Compared to the trivial problems 1, 2, 25, the 62 already requires more thinking and even the best solution takes significant amount of CPU cycles, and a bad one could easily be 100x slower than needs to be.
 
-The second solution p0062_alg2() is a bit of brute force. Create a sorted digit string of each cube, then using this as a key create associative array (like Python Dict) for each key and push the root to the array. Once you get such an array with 5 elements you have found the solution. It is not much slower than p062_alg1(), mostly slowed by the associative array lookups that can be a bit expenmsive operations. But the code is pretty simple.
+In first solution p062_alg1() just start creating list of cubes, and then for each cube a signature of the decimal digit distribution using distSig(). Then sort the list(s) and find out sublists with matching signatures. The function here can be tweaked to study the numerology deeper, for different digit count cubes and for different amount of digit permutations so it is bit more complex than it needs to be. Still it runs pretty fast, but that is thanks to skipping the first 4642 roots after running the function with different arguments first (AKA cheating :-).
+
+The second solution p0062_alg2() is a bit of brute force. Create a sorted digit string of each cube, then using this as a key create associative array (like Python Dict) for each key and push the root to the array. Once you get such an array with 5 elements you have found the solution. It is not much slower than p062_alg1(), mostly slowed by the associative array lookups that can be a bit expensive operations. But the code is pretty simple. You could make this run quicker by skipping the first 4642 roots that are waste fo time, if you would know that to be the case by some pre study of the numerology.
 
 Comparison:
 | algorithm | ms |
