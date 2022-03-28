@@ -4,12 +4,22 @@ https://projecteuler.net/
 
 According to rules, the problems below 100 may be published, but the rest may not. Problems from 1 to 99 are often very easy to solve, sometimes with just a one-liner.
 
-These solutions are provided as an example how to solve and present Project Euler solutions in a somewhat nice way.
+These solutions are provided as an example how to solve and present Project Euler solutions in a somewhat nice way but without using any build tools. All of the sources here can be run from command line using node, python or java commands. As code editor I have used VS Code myself, you can install it for free from 
 
 Solutions are provided with following languages, which are among the most popular in 2022:
-- javascript
+- Javascript
 - Python
-- java
+- Java
+
+# Tools
+As code editor I have used VS Code myself, you can install it to Windows, Mac or Linux for free from https://code.visualstudio.com/download.
+Using VS code you can do integrate version control with git and sync your repo to github with ease. 
+
+To run your code you can install following command line tools:
+- Javascript: https://nodejs.org/en/download/ 
+    - note that you can run JS also in browser: https://developer.chrome.com/docs/devtools/console/javascript/
+- Python: https://www.python.org/downloads/
+- Java: 
 
 ## list of problems and solution
 Number of different solutions in different languages.
