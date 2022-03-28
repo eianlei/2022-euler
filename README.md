@@ -13,14 +13,17 @@ Solutions are provided with following languages, which are among the most popula
 
 # Tools
 As code editor I have used VS Code myself, you can install it to Windows, Mac or Linux for free from https://code.visualstudio.com/download.
-Using VS code you can do integrate version control with git and sync your repo to github with ease. 
+Using VS code you can do integrated version control with git and sync your repo to github with ease. There are also online "fiddle" tools, which allow testing code on web browser without installing anything.
 
 To run your code you can install following command line tools:
 - Javascript: https://nodejs.org/en/download/ 
     - note that you can run JS also in browser: https://developer.chrome.com/docs/devtools/console/javascript/
+    - online using JS Fiddle tools such as: https://jsfiddle.net/ 
 - Python: https://www.python.org/downloads/
     - note that most Linux distros include Python pre-built
+    - online: http://pythonfiddle.com/
 - Java: https://www.java.com/en/download/help/download_options.html
+    - online: https://www.mycompiler.io/online-java-compiler
 
 For a more ambitious presentation you can use a build tool and unit test framework. For example:
 - Javascript: Jest, Mocha, Jasmine
