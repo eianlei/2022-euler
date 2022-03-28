@@ -121,6 +121,21 @@ Comparison:
 | 2 | 0.7 |
 | 3 | 0.17 |
 
+### Problem #062
+https://projecteuler.net/problem=62
+
+Source: https://github.com/eianlei/2022-euler/blob/master/p062_euler.js 
+
+In first solution p062_alg1() just start creating list of cubes, and then for each cube a signature of the decimal digit distribution using distSig(). Then sort the list(s) and find out sublists with matching signatures. The function here can be tweaked to study the numerology deepr, for different digit count cubes and for different amount of digit permuations so it is bit more complex than it needs to be. Still it runs pretty fast.
+
+The second solution p0062_alg2() is a bit of brute force. Create a sorted digit string of each cube, then using this as a key create associative array (like Python Dict) for each key and push the root to the array. Once you get such an array with 5 elements you have found the solution. It is not much slower than p062_alg1(), mostly slowed by the associative array lookups that can be a bit expenmsive operations. But the code is pretty simple.
+
+Comparison:
+| algorithm | ms |
+| --- | --- |
+| 1 | 18 |
+| 2 | 24 |
+
 ## Python solutions
 Python is a very easy language to work with. If you have installed Python (3.8 or newer), then execute the code simply by:
 
@@ -134,6 +149,22 @@ Source: https://github.com/eianlei/2022-euler/blob/master/p001_euler.py
 This is a one-liner version of the corresponding Javascript algorithm 3, which is also a one-liner. This shows how expressive Python can be, at the expense of not being so readable though.
 
     print(sum(map(lambda a: a if (a % 3 == 0 or a % 5 == 0) else 0, range(0, 1000))))
+    
+### Problem #062
+https://projecteuler.net/problem=62
+
+Source: https://github.com/eianlei/2022-euler/blob/master/p062_euler.py 
+
+find() is essentially the same algorithm as JavaScript solution p0062_alg2(), now using Python dict {}. It runs 3x faster in Pythoin than in JS.
+The 2nd loop does basically the same by a less efficient way and runs 2x slower. 3rd loop manages to do the same almost 100x slower.
+
+Comparison:
+| algorithm | ms |
+| --- | --- |
+| 1 | 8 |
+| 2 | 13 |
+| 3 | 362 |
+    
 ## JAVA solutions
 Single source file java code can also be very easy to work with. Just install java environment and:
 
