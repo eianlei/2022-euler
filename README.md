@@ -19,7 +19,13 @@ To run your code you can install following command line tools:
 - Javascript: https://nodejs.org/en/download/ 
     - note that you can run JS also in browser: https://developer.chrome.com/docs/devtools/console/javascript/
 - Python: https://www.python.org/downloads/
-- Java: 
+    - note that most Linux distros include Python pre-built
+- Java: https://www.java.com/en/download/help/download_options.html
+
+For a more ambitious presentation you can use a build tool and unit test framework. For example:
+- Javascript: Jest, Mocha, Jasmine
+- Python: PyTest
+- Java: Maven and Junit
 
 ## list of problems and solution
 Number of different solutions in different languages.
