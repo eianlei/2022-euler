@@ -15,7 +15,7 @@ Solutions are provided with following languages, which are among the most popula
 Number of different solutions in different languages.
 
 | problem | JS | Python | Java | complexity |
-| --- | --- | --- | --- |
+| --- | --- | --- | --- | --- |
 | 001 | 4 | 1 | 1 | one-liner |
 | 002 | 3 | 0 | 0 | simple |
 | 025 | 3 | 0 | 0 | one-liner |
