@@ -35,7 +35,7 @@ Number of different solutions in different languages.
 | 001 | 4 | 1 | 1 | one-liner |
 | 002 | 3 | 0 | 0 | simple |
 | 025 | 3 | 0 | 0 | one-liner |
-| 062 | 2 | 1 | 3 | medium-hard |
+| 062 | 2 | 3 | 0 | medium-hard |
 
 ## Javascript solutions
 Javascript is an easy language to work with as you can run it on a web browser with very little tools. 
