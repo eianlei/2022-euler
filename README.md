@@ -10,6 +10,17 @@ Solutions are provided with following languages, which are among the most popula
 - javascript
 - Python
 - java
+
+## list of problems and solution
+Number of different solutions in different languages.
+
+| problem | JS | Python | Java | complexity |
+| --- | --- | --- | --- |
+| 001 | 4 | 1 | 1 | one-liner |
+| 002 | 3 | 0 | 0 | simple |
+| 025 | 3 | 0 | 0 | one-liner |
+| 062 | 2 | 1 | 3 | medium-hard |
+
 ## Javascript solutions
 Javascript is an easy language to work with as you can run it on a web browser with very little tools. 
 You can easily run Javascript on a computer command line too when you install Node.js. See https://nodejs.org/en/ 
